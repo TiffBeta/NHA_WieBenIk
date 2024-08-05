@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(149, 188, 201);
+    font-family: Verdana;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px 10px 10px 10px;
+    }
+
+    thead {
+        text-align: center;
+    }
+
+ul {
+    color: black;
+    text-decoration: none;
+    }
+
+li {
+    display: inline-block;
+    background-color:azure;
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    }
+
+a:hover {
+    background-color: rgb(222, 246, 247);
+    font-weight: bold;
+    }
+
+button:active {
+    background-color: rgb(222, 246, 247);
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, button
+    {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    width: 25%;
+    }
+
+
+#opleidingen,#werkervaring,#talen,#cert {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+    background-color:azure;
+}
+
+#naamOpleidingen,#locatieOpleidingen,#afgerondOpleidingen, #bedrijf, #locatie, #functie {
+    border-width: 1px;
+    border-style: solid;
+    text-decoration: underline;
+    background-color: rgb(226, 231, 231);
+}
+
+td{
+    width: 25%;
+    text-align: center;
+    border: 1px;
+    border-style: dotted;
+    background-color: rgb(187, 194, 194);
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#picTiffany {
+    height: 300px;
+}
+
+footer {
+    font-size: x-small;
+    padding: 5px 5px 5px 5px;
+}
+
+header {
+    padding: 5px 5px 5px 5px;
+}
